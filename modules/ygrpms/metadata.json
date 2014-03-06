@@ -1,0 +1,31 @@
+{
+  "name": "yguenane-ygrpms",
+  "version": "0.1.0",
+  "source": "https://github.com/Spredzy/puppet-ygrpms",
+  "author": "Yanis Guenane",
+  "license": "Apache License, Version 2.0",
+  "summary": "A Puppet module that installs and configure ygrpms repo",
+  "description": "A Puppet module that installs and configure ygrpms repo",
+  "project_page": "https://github.com/Spredzy/puppet-ygrpms",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.1.0"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "CHANGELOG": "0902b8d94862d9e7feddb2928da68aed",
+    "LICENSE": "4af069088beeca12b7bb93bab68683e8",
+    "Modulefile": "f83d63a00914833cc6d2e84421d03244",
+    "README.md": "62e453f1f440a27e473f7ad7b41d00f5",
+    "Rakefile": "4b8b44dbe5afc14bdfe5ebc9fb18cdf5",
+    "manifests/init.pp": "bfd8bf6c925f9a3ae274a1f9277a0e8f",
+    "puppet-ygrpms.spec": "31645e1e632aa61f73008fc9abab66f2",
+    "spec/classes/ygrpms_spec.rb": "a253d78111e4a99b30dc762646af05c0",
+    "spec/spec_helper.rb": "792eeb7aa7edafb93e2bc1d27c5e75c5",
+    "tests/init.pp": "56f6840048c4683074039cd326eaf4a6"
+  }
+}

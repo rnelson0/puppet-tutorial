@@ -1,0 +1,42 @@
+{
+  "name": "saz-ssh",
+  "version": "1.4.0",
+  "source": "git://github.com/saz/puppet-ssh.git",
+  "author": "saz",
+  "license": "Apache License, Version 2.0",
+  "summary": "UNKNOWN",
+  "description": "Manage SSH client and server via puppet",
+  "project_page": "https://github.com/saz/puppet-ssh",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 2.2.1"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "LICENSE": "d6869a585931245be85fd4aece485172",
+    "Modulefile": "afcdb3f8e369200849f33b844b5b416f",
+    "README.markdown": "e0cac7945b2ca1bc9a1c4949ee6fd69f",
+    "files/ssh_config": "34815c31785be0c717f766e8d2c8d4d7",
+    "files/sshd_config": "ba9c3f808c811d6f944ad10a508c4767",
+    "lib/puppet/parser/functions/ipaddresses.rb": "adc01307a215594da64f74a5eeacc0ee",
+    "manifests/client/config.pp": "7a08203b468f037422e45e1a478bb100",
+    "manifests/client/install.pp": "c7f6a8a13294b2a2190ee0ba482e965f",
+    "manifests/client.pp": "fe8f05acf151ffaa327e903b5cf270d6",
+    "manifests/hostkeys.pp": "a1c9bbc22c79a4238537938ec1f56896",
+    "manifests/init.pp": "37b59bd9d97bbcd6c7f13a556a4e343c",
+    "manifests/knownhosts.pp": "e71112dbec416901052039150e96a3a9",
+    "manifests/params.pp": "39834df7e4aa6b5367160e6b0725064f",
+    "manifests/server/config.pp": "3ef8d85f8b04f48c72d46e65b1b6b27e",
+    "manifests/server/configline.pp": "eec93110ad83c8554ba18f2a93cf05ef",
+    "manifests/server/install.pp": "a9dc6e99436303f46b9feef99356a559",
+    "manifests/server/service.pp": "739e0be2fca6e93926da148c38199595",
+    "manifests/server.pp": "0088101e48389e0d667269aa5a18490d",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "tests/init.pp": "423466ae46899d6a0480aa9910b096d2"
+  }
+}

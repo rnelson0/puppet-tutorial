@@ -1,0 +1,31 @@
+{
+  "name": "rnelson0-base",
+  "checksums": {
+    "manifests/init.pp": "cd66c8d4db74b58cc40a6d02ee4619b3",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "Modulefile": "a4487052b46a81c18d94507f01aeb404",
+    "manifests/users.pp": "06eb04ac69cbc984e6709c3cc4075ca9",
+    "README": "26b8b9a862f59768651d995efb1c1384",
+    "tests/init.pp": "6f683e4e3cead5de90a50cb0fdd95f3b"
+  },
+  "version": "0.1.0",
+  "source": "UNKNOWN",
+  "dependencies": [
+    {
+      "version_requirement": ">= 3.0.1",
+      "name": "puppetlabs/ntp"
+    },
+    {
+      "version_requirement": ">= 1.4.0",
+      "name": "saz/ssh"
+    }
+  ],
+  "license": "Apache License, Version 2.0",
+  "description": "This class contains our common configuration that is required across all managed nodes",
+  "summary": "Base class to apply to all agents",
+  "project_page": "UNKNOWN",
+  "author": "rnelson0",
+  "types": [
+
+  ]
+}
