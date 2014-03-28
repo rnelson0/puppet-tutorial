@@ -9,6 +9,7 @@ mod "puppetlabs/stdlib", "4.1.0"
 mod "saz/ssh", "1.4.0"
 mod "yguenane/augeas", "0.1.1"
 mod "yguenane/ygrpms", "0.1.0"
+mod "saz/motd"
 
 # For our r10k installer
 mod "zack/r10k", "1.0.2"
