@@ -25,4 +25,3 @@ mod "puppetlabs/vcsrepo", "0.2.0"
 # Modules from Github
 mod "base",
   :git => "git://github.com/rnelson0/rnelson0-base",
-  :ref => "motd"
