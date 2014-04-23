@@ -21,4 +21,12 @@ node 'puppet.nelson.va' {
     ssl_server_public  => 'puppet:///modules/site_mcollective/certs/puppet.nelson.va.pem',
     ssl_server_private => 'puppet:///modules/site_mcollective/private_keys/puppet.nelson.va/pem',
   }
+
+  user { 'root':
+    ensure => present,
+  } ->
+  mcollective::user { 'root':
+    certificate => 'puppet:///modules/site_mcollective/client_certs/root.pem',
+    private_key => 'puppet:///modules/site_mcollective/private_keys/root.pem',
+  }
 }
