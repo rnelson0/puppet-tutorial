@@ -19,7 +19,7 @@ node 'puppet.nelson.va' {
     ssl_client_certs   => 'puppet:///modules/site_mcollective/client_certs',
     ssl_ca_cert        => 'puppet:///modules/site_mcollective/certs/ca.pem',
     ssl_server_public  => 'puppet:///modules/site_mcollective/certs/puppet.nelson.va.pem',
-    ssl_server_private => 'puppet:///modules/site_mcollective/private_keys/puppet.nelson.va/pem',
+    ssl_server_private => 'puppet:///modules/site_mcollective/private_keys/puppet.nelson.va.pem',
   }
 
   user { 'root':
