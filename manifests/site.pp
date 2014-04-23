@@ -24,6 +24,7 @@ node 'puppet.nelson.va' {
 
   user { 'root':
     ensure => present,
+    home   => '/root',
   } ->
   mcollective::user { 'root':
     certificate => 'puppet:///modules/site_mcollective/client_certs/root.pem',
