@@ -12,6 +12,7 @@ node 'puppet.nelson.va' {
   }
 
   class { '::mcollective':
+    client             => true,
     middleware         => true,
     middleware_hosts   => [ 'puppet.nelson.va' ],
     middleware_ssl     => true,
@@ -29,5 +30,9 @@ node 'puppet.nelson.va' {
     homedir     => '/root',
     certificate => 'puppet:///modules/site_mcollective/client_certs/root.pem',
     private_key => 'puppet:///modules/site_mcollective/private_keys/root.pem',
+  }
+
+  mcollective::plugin { 'puppet':
+    package => true,
   }
 }
