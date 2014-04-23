@@ -36,3 +36,6 @@ mod "puppetlabs/vcsrepo", "0.2.0"
 # Modules from Github
 mod "base",
   :git => "git://github.com/rnelson0/rnelson0-base"
+
+mod "site_mcollective",
+  :git => "git://github.com/rnelson0/site_mcollective"
