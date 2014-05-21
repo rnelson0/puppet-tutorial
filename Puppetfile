@@ -37,5 +37,14 @@ mod "puppetlabs/vcsrepo"
 mod "base",
   :git => "git://github.com/rnelson0/rnelson0-base"
 
+mod "custom_facts",
+  :git => "git://github.com/rnelson0/rnelson0-custom_facts"
+
+mod "role",
+  :git => "git://github.com/rnelson0/rnelson0-role"
+
+mod "profile",
+  :git => "git://github.com/rnelson0/rnelson0-profile"
+
 mod "site_mcollective",
   :git => "git://github.com/rnelson0/site_mcollective"
