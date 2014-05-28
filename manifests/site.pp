@@ -37,9 +37,6 @@ node 'puppet.nelson.va' {
   }
 }
 
-node /^server\d+/ {
-  include role::webserver
-}
-
 node default {
+  hiera_include('classes')
 }
