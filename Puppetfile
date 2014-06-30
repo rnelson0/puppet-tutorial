@@ -21,6 +21,7 @@ mod "puppetlabs/java"
 mod "puppetlabs/java_ks"
 mod "puppetlabs/rabbitmq"
 mod "richardc/datacat"
+mod "stephenrjohnson/puppet"
 
 # For our r10k installer
 mod "zack/r10k"
