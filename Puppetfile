@@ -24,6 +24,7 @@ mod "puppetlabs/rabbitmq"
 mod "richardc/datacat"
 mod "stephenrjohnson/puppet"
 mod "palli/createrepo"
+mod "maestrodev/rvm"
 
 # For our r10k installer
 mod "zack/r10k"
