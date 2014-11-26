@@ -25,6 +25,7 @@ mod "richardc/datacat"
 mod "stephenrjohnson/puppet"
 mod "palli/createrepo"
 mod "maestrodev/rvm"
+mod "rnelson0/certs"
 
 # For our r10k installer
 mod "zack/r10k"
