@@ -37,9 +37,6 @@ mod 'yguenane/ygrpms', '0.1.0'
 mod 'zack/r10k', '1.0.2'
 
 # Modules from Github
-mod 'base',
-  :git => 'git://github.com/rnelson0/rnelson0-base'
-
 mod 'custom_facts',
   :git => 'git://github.com/rnelson0/rnelson0-custom_facts'
 
