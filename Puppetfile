@@ -1,6 +1,9 @@
 forge 'http://forge.puppetlabs.com'
 
 # Modules from the Puppet Forge
+mod 'elasticsearch/elasticsearch', '0.4.0'
+mod 'elasticsearch/logstash', '0.5.1'
+mod 'evenup/kibana', '1.1.0'
 mod 'garethr/erlang', '0.3.0'
 mod 'gentoo/portage', '2.2.0'
 mod 'maestrodev/rvm', '1.6.6'
