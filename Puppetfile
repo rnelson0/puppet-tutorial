@@ -53,5 +53,5 @@ mod 'profile',
 mod 'site_mcollective',
   :git => 'git://github.com/rnelson0/site_mcollective'
 
-mod 'site_certificates',
-  :git => 'git@github.com:rnelson0/site_certificates.git'
+mod 'home_config',
+  :git => 'git@github.com:rnelson0/home_config.git'
