@@ -1,6 +1,7 @@
 forge 'http://forge.puppetlabs.com'
 
 # Modules from the Puppet Forge
+mod 'ajjahn/dhcp', '0.2.0'
 mod 'elasticsearch/elasticsearch', '0.4.0'
 mod 'elasticsearch/logstash', '0.5.1'
 mod 'evenup/kibana', '1.1.0'
