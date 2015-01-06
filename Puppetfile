@@ -53,8 +53,8 @@ mod 'role',
 mod 'profile',
   :git => 'git://github.com/rnelson0/rnelson0-profile'
 
-mod 'site_mcollective',
-  :git => 'git://github.com/rnelson0/site_mcollective'
-
 mod 'home_config',
   :git => 'git@github.com:rnelson0/home_config.git'
+
+mod 'linuxfw',
+  :git => 'git@github.com:rnelson0/linuxfw'
