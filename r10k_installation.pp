@@ -2,7 +2,7 @@ class { 'r10k':
   version => '1.4.0',
   sources => {
     'puppet' => {
-      'remote'  => 'git://github.com/rnelson0/puppet-tutorial.git',
+      'remote'  => 'git@github.com:rnelson0/puppet-tutorial.git',
       'basedir' => "${::settings::confdir}/environments",
       'prefix'  => false,
     },

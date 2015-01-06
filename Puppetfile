@@ -45,13 +45,13 @@ mod 'zack/r10k', '1.0.2'
 
 # Modules from Github
 mod 'custom_facts',
-  :git => 'git://github.com/rnelson0/rnelson0-custom_facts'
+  :git => 'git@github.com:rnelson0/rnelson0-custom_facts'
 
 mod 'role',
-  :git => 'git://github.com/rnelson0/rnelson0-role'
+  :git => 'git@github.com:rnelson0/rnelson0-role'
 
 mod 'profile',
-  :git => 'git://github.com/rnelson0/rnelson0-profile'
+  :git => 'git@github.com:rnelson0/rnelson0-profile'
 
 mod 'home_config',
   :git => 'git@github.com:rnelson0/home_config.git'
